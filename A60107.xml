@@ -1,0 +1,504 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Short treatise of the description of the sector wherein is also shown the great use of that excellent instrument, in the solution of several mathematical problems.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1697</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 57 KB of XML-encoded text transcribed from 24 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A60107</idno>
+            <idno type="STC">Wing S3636</idno>
+            <idno type="STC">ESTC R41684</idno>
+            <idno type="EEBO-CITATION">31355767</idno>
+            <idno type="OCLC">ocm 31355767</idno>
+            <idno type="VID">110661</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A60107)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 110661)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1753:9)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A Short treatise of the description of the sector wherein is also shown the great use of that excellent instrument, in the solution of several mathematical problems.</title>
+                  <author>Worgan, John, surveyor.</author>
+               </titleStmt>
+               <extent>[4], 35 p., 3+ leaves of plates (folded) : ill.  </extent>
+               <publicationStmt>
+                  <publisher>Printed and sold by John Worgan, Mathematical Instrument-maker ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1697.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Imperfect: cropped and stained, with loss of text; plate(s) for figs. 1-9 lacking.</note>
+                  <note>Reproduction of original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Mathematical instruments --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-05</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-06</date>
+            <label>Susie Lorand</label>Sampled and proofread</change>
+         <change>
+            <date>2012-06</date>
+            <label>Susie Lorand</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:110661:1"/>
+            <pb facs="tcp:110661:1" rendition="simple:additions"/>
+            <p> Short Treatiſe OF THE DESCRIPTION OF THE SECTOR.</p>
+            <p>WHEREIN Is alſo ſhown the great Uſe of that ex<g ref="char:EOLhyphen"/>cellent Inſtrument, in the Solution of ſeveral Mathematical Problems.</p>
+            <p>
+               <hi>LONDON,</hi> Printed for and Sold by <hi>John Worgan,</hi> Mathe<g ref="char:EOLhyphen"/>matical Inſtrument-maker, at his Shop un<g ref="char:EOLhyphen"/>der St. <hi>Dunſtan</hi>'s Church, <hi>Fleetſtreet,</hi> 1697.</p>
+            <p>Where all ſorts of Mathematick Inſtruments, both for Sea and Land, are made and Sold.</p>
+            <pb facs="tcp:110661:2" rendition="simple:additions"/>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:110661:2"/>
+            <head>TO THE READER.</head>
+            <opener>
+               <salute>READER,</salute>
+            </opener>
+            <p>THOU art here preſented with a ſmall <hi>Trea<g ref="char:EOLhyphen"/>tiſe</hi> of the Uſe of the <hi>Sector,</hi> in which I have Explain'd the true Nature and Property of the Conſtruction of this admirable Inſtrument; and have <hi>Geometrically</hi> demonſtrated the Grounds upon which all the Operations depend. I have alſo ſhown the A<g ref="char:EOLhyphen"/>mendments that have been lately made in diſpoſing the Lines hereon plac'd, and the advantages accrewing thereby.</p>
+            <p>In the next place I have exhibited its general Uſe, and declared wherein the great benefit of this Noble Contrivance lies, and the Univerſal Uſefulneſs of the ſame.</p>
+            <p>Laſtly, I have a little Illuſtrated its Excellency in the Solution of ſome few Mathematick Problems, parti<g ref="char:EOLhyphen"/>cularly in <hi>Arithmetick, Geometry</hi> and <hi>Trigono<g ref="char:EOLhyphen"/>metry;</hi> which indeed are the foundation of all the reſt, and ſufficient for the young <hi>Tyro</hi>'s light to the Solution
+<pb facs="tcp:110661:3"/> of many more. For to ſhow <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> of <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="5 letters">
+                  <desc>•••••</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ment were little leſs than to write a Body of the Mathematicks, which is not my deſign at preſent. My principal intent here being only to ſhow how this Inſtru<g ref="char:EOLhyphen"/>ment ſupplies the place of almoſt all others. Particular<g ref="char:EOLhyphen"/>ly of all kinds of Scales and Rules, which are made but to aſſigned or particular <hi>Radiuſes,</hi> which is the main end, and ſole deſign of this Inſtrument. If herein the Publick Good be any way advanc'd, I ſhall be very Glad of it. <hi>Vale.</hi>
+            </p>
+            <pb facs="tcp:110661:4"/>
+            <figure>
+               <figDesc>sector (mathematical instrument)</figDesc>
+               <byline>Iohn Worgan Londini fecit</byline>
+            </figure>
+         </div>
+      </front>
+      <body>
+         <div n="1" type="chapter">
+            <pb facs="tcp:110661:4"/>
+            <head>CHAP. I. <hi>A Deſcription of Chords, Sines, Tangents,</hi> &amp;c.</head>
+            <p>BEcauſe in the meaſuring of parts of a Circle (which is often required) there is no other way but by reducing them to ſtrait Lines, there<g ref="char:EOLhyphen"/>fore did the Ancients apply certain ſtrait Lines to a Circle; which come in Competition to Arch-lines, and that ſeveral ways, <hi>viz.</hi> as they are drawn within a Circle, through it, or without a Circle.</p>
+            <p>Lines within a Circle are <hi>Chords</hi> and <hi>Sines.</hi>
+            </p>
+            <p>A <hi>Chord</hi> of an Arch is a ſtrait Line drawn from one end of an Arch to the other, as in <hi>Fig.</hi> 1. the Line A B is the Chord of the Arch A C B. It is alſo the Chord of the Arch A D B, for it is common to both parts of the Circle.</p>
+            <p>So that from 15 <hi>Prop.</hi> of the 3<hi>d</hi> Book of <hi>Euclid</hi> 'tis evident, the greateſt Chord that can be drawn is the Diameter of the Circle, or Chord of 180 <hi>Deg.</hi> or half the Circle, and conſequently that all Chords of Arches greater than a Semi-circle, are leſs than the Diameter.</p>
+            <p>
+               <hi>Sines</hi> be either <hi>Right</hi> or <hi>Verſed.</hi>
+            </p>
+            <p>A <hi>right Sine</hi> of an Arch is a Line drawn from one end of that Arch perpendicular to a Diameter drawn from the other end of that Arch, and belongs to both parts of a Semi-circle, as in <hi>Fig.</hi> 1. EB. is the right Sine of the Arch C B, and alſo of the Arch B D.</p>
+            <pb facs="tcp:110661:5"/>
+            <p> And here you may obſerve from the aforecited Propo<g ref="char:EOLhyphen"/>ſition of <hi>Euclid,</hi> that the greateſt Sine is that of 90 <hi>Deg.</hi> or a Quarter of a Circle: And therefore all Sines of Arches greater than a Quadrant, are leſs than the Sine of 90 <hi>Deg.</hi> which is half the Diameter, or that which (in all Proportions) we call <hi>Radius.</hi>
+            </p>
+            <p>The <hi>Verſed Sine</hi> of an Arch is that part of the Dia<g ref="char:EOLhyphen"/>meter betwixt the right Sine, and the end of that Arch it is the Verſed Sine off, as in <hi>Fig.</hi> 1. E C is the <hi>Verſed Sine</hi> of the Arch C B, and E D the <hi>Verſed Sine</hi> of the Arch B D.</p>
+            <p>From hence 'tis alſo evident that the greateſt Verſed Sine is that of 180 <hi>Deg.</hi>
+            </p>
+            <p>Lines drawn through a Circle are <hi>Secants.</hi>
+            </p>
+            <p>A <hi>Secant</hi> is a ſtrait Line drawn from the Center of a Circle through one end of that Arch (which it is the Se<g ref="char:EOLhyphen"/>cant off) till it meet with the Tangent which bounds it, as in <hi>Fig.</hi> 2. EI in the Secant of the Arch BH.</p>
+            <p>Lines drawn without a Circle are <hi>Tangents.</hi>
+            </p>
+            <p>A <hi>Tangent</hi> is a ſtrait Line that touches a Circle, and is erected perpendicular to a Diameter drawn from the Touch-point, being limited by the Secant which paſſeth through the other end of the Arch, it is the Tangent off, as in <hi>Fig.</hi> 2. the ſtrait Line HI is the Tangent of the Arch B H.</p>
+            <p>Hence 'tis evident there can be no Secant nor Tan<g ref="char:EOLhyphen"/>gent of 90 Degrees, for the Secant of 90 Degrees is pa<g ref="char:EOLhyphen"/>rallel to the Tangent Line, and therefore if infinitely produced will never meet with it.</p>
+            <p>The <hi>Half Tangent</hi> is only the Tangent of half the Arch as the Tangant of 90 Degrees is infinite, but the Half Tangent of 90 Deg. is the Tangent of 45 Deg. as in <hi>Fig.</hi> 2. FE is the Half Tangent of the Arch BH, which is but half the Angle B A H, for the Angle at the
+<pb facs="tcp:110661:5"/> Center is double to the Angle at the Circumference by 20 <hi>Prop.</hi> of the Third Book of <hi>Euclid.</hi>
+            </p>
+         </div>
+         <div n="2" type="chapter">
+            <head>CHAP. II. <hi>How the Sines of</hi> Chords, <hi>Natural Sines,</hi> Tangents, Secants, <hi>&amp;c. are projected, and put on the Common Scales.</hi>
+            </head>
+            <p>FIrſt, with any diſtance deſcribe the Circle, A B C F and draw the Diameter A C, which croſs at right Angles with the Line D B produc'd in <hi>Fig.</hi> 3. and draw A B, then divide the Arch A B into 9 equal parts, ſet<g ref="char:EOLhyphen"/>ing thereto the Figures 10, 20, 30, <hi>&amp;c.</hi> to 90; and each of thoſe 9 Diviſions again into 10 equal parts, one of which is a degree, or the 360 of the whole Circle. This done with one foot of the Compaſſes in A, transfer theſe Diviſions of the Arch to the ſtrait Line A B, pla<g ref="char:EOLhyphen"/>cing thereto the Numbers 10, 20, <hi>&amp;c.</hi> as was ſet to the Arch. The Line A B thus divided is a Line of <hi>Chords,</hi> and may be transfer'd from the Paper to a Silver, Braſs, or Box-Scale.</p>
+            <p>Secondly, For the <hi>Sines</hi> divide the arch B C as be<g ref="char:EOLhyphen"/>fore, <hi>viz.</hi> into 90 equal parts, noting the 9 Grand Di<g ref="char:EOLhyphen"/>viſions with Figures as in the laſt. From theſe points in the arch B C let fall perpendiculars to the Diameter A C, theſe ſhall divide the Semi-diameter D C into a Line of right <hi>Sines,</hi> which may from hence be transfer'd to any Scale or Rule.</p>
+            <p>Thirdly, For the Verſed Sines, (which is only a dou<g ref="char:EOLhyphen"/>ble Scale of right Sines) let fall perpendiculars (as before to divide the Sines) from every degree in the whole Se<g ref="char:EOLhyphen"/>mi-circle
+<pb facs="tcp:110661:6"/> A B C, theſe Perpendiculars will divide the Dia<g ref="char:EOLhyphen"/>meter A C into a Line of Verſed Sines, which are num<g ref="char:EOLhyphen"/>bered according to the Figures under the Diameter, but are ſeldom put on any Scale, except requir'd.</p>
+            <p>Fourthly, From C raiſe a Perpendicular to A C, and from the Center D through each Diviſion of the Qua<g ref="char:EOLhyphen"/>drant draw Lines, producing them till they meet the Line C E, which Lines ſhall divide the ſaid Line into a Scale of Tangents, to which ſet the <hi>Fig.</hi> 10, 20, 30, <hi>&amp;c.</hi> as they were in the Arch.</p>
+            <p>Fifthly, If the Extents D 10, D 20, D 30, <hi>&amp;c.</hi> in the Tangent-Line be transfer'd to the Line D B produc'd, they will divide it into a Line of Secants, which with the Numbers 10, 20, 30, <hi>&amp;c.</hi> may from the Scheme be put upon any Scale, and is continued on the line of Sines, for after the Sine of 90, the Tangents begins.</p>
+            <p>Hence you ſee that the Secant of Nothing, is the Ra<g ref="char:EOLhyphen"/>dius or Semi-diameter of the Circle.</p>
+            <p>Sixthly, If from A to each Diviſion of the Arch B C you draw Lines, they ſhall divide the Radius B D into a Line of half Tangents, to which ſet the Numbers 10, 20, 30, <hi>&amp;c.</hi> to 90. Sometimes this Line is made to run as far as 150 or 160 Deg. which is of the ſame length with the whole Tangent of 75 or 80 Deg. and when 'tis ſo divided the Line B D muſt be produc'd as it was for the Secant. For the half Tangent of 10 Deg. is the whole Tangent of 5 Deg. ſo alſo the half Tangent of 160 Degrees is the whole Tangent of 80 Degrees.</p>
+            <p>Seventhly, Draw the Line A F and divide the Arch A F into 8 equal parts, theſe transfer'd from the Arch to the ſtrait Line A F, as were the Chords, divides it into a Line of Rhumbs or Points: Its uſe is to lay of any Point of the Compaſs, which it doth much more readier than a Line of Chords, though that will ſerve when you have not this.</p>
+            <pb facs="tcp:110661:6"/>
+            <p> Laſtly, You may divide the Semi-diameter F D into 100 equal parts, and it will ſerve for a Line of Equal parts, to take Leagues or Miles from; not but that it might be longer or ſhorter for there is no neceſſity of its being juſt of ſuch a length.</p>
+            <p>This Line is of great uſe, becauſe from it all the other Lines might be divided, by ſuppoſing the Radius of the Circle to contain any number of equal parts, as 1000, 10000, <hi>&amp;c.</hi> For then all the Chords, Sines, Tangents, <hi>&amp;c.</hi> will conſiſt of a certain number of thoſe parts.</p>
+         </div>
+         <div n="3" type="chapter">
+            <head>CHAP. III. <hi>Of the Plain Scale.</hi>
+            </head>
+            <p>ASſume a Line whoſe length let be what you pleaſe, ſuppoſe <hi>ab.</hi> On this Line make a Parallelogram of any breadth at pleaſure as <hi>abcd,</hi> divide the oppoſite ſides <hi>ab</hi> and <hi>de</hi> each into 10 equal parts, as alſo <hi>ad, bc,</hi> ſeting thereto the Figures 1, 2, 3, <hi>&amp;c.</hi> as you ſee in <hi>Fig.</hi> 4. This done draw from the Points 1, 2, 3, <hi>&amp;c.</hi> in the Line <hi>ad,</hi> the ſeveral Lines parallel to <hi>ab,</hi> then from the Points <hi>b,</hi> 1, 2, 3, <hi>&amp;c.</hi> in the Line <hi>ab,</hi> to the Points 1, 2, 3, <hi>&amp;c.</hi> in the Line <hi>dc;</hi> draw the Diagonal Lines, <hi>b.</hi> 1, 1. 2, 2. 3, 3. 4, <hi>&amp;c.</hi> By which the Line <hi>ab</hi> or thoſe equal to it, are actually divided into 100 equal parts. The reaſon of which is very clear from the <hi>4th.</hi> of the <hi>6th.</hi> of <hi>Euclid,</hi> for by that propoſition 'twil hold as <hi>bc: be::</hi> 1<hi>c: he,</hi> and therefore if <hi>be</hi> is 1/10 of <hi>bc</hi> (which by conſtruction it is) then ſhall <hi>he</hi> be 1/10 of 1<hi>c</hi> that is 1/10 of 1/10 (or 1/100) of <hi>dc</hi> or <hi>ab.</hi>
+            </p>
+            <p>If the Sides <hi>ab, dc,</hi> as alſo their Parallels 1, 2, 3, <hi>&amp;c.</hi> be produced, and the diſtances <hi>ab, dc,</hi> repeated thereon,
+<pb facs="tcp:110661:7"/> 1, 2, 3, or more Lines, as the lengths of the Rule on which you put them will permit, you have finiſhed the ſaid Diagonal Scale; the deſign of which is to ſupply the uſe of a Scale of equal parts, but with greater exact<g ref="char:EOLhyphen"/>neſs than any of thoſe kind of Scales can pretend to, for from it may be taken any Number under 1000 exactly.</p>
+         </div>
+         <div n="4" type="chapter">
+            <head>CHAP. IV. <hi>Of the conſtruction of the Lines of Artificial Numbers,</hi> Sines <hi>and</hi> Tangents.</head>
+            <p>BEſides the Lines before deſcribed there are another ſort, which is generally put on Scales and Rules, called <hi>Artificial Numbers, Sines</hi> and <hi>Tangents,</hi> the riſe and conſtruction of which are from the <hi>Logarithmes.</hi> For they are only the Logarithms of the <hi>Natural Numbers, Sines</hi> and <hi>Tangents</hi> Transfer'd to a Scale.</p>
+            <p>The Line of Numbers commonly known by Name of <hi>Gunter</hi>'s Line, is a Line of Geometrical Proportion un<g ref="char:EOLhyphen"/>equally divided into 9 parts, beginning at 1 towards the left hand and running with 2, 3, 4, <hi>&amp;c.</hi> to 10, which is about the middle of the Line, where another Radius be<g ref="char:EOLhyphen"/>gins, and is continued to 100 towards the right hand, it hath the Figures 10, 20, 30, <hi>&amp;c.</hi> ſet thereto, and is divided juſt as was the firſt part of it.</p>
+            <p>The Line being thus divided is called a Line of Num<g ref="char:EOLhyphen"/>bers of two Radiuses, and the way of Numbring on it thus, (for herein lyes the great difficulty in the uſe of it.) It is (as before was noted) divided into 18 unequal parts, the firſt 9 ending about the middle of the Scale, and the other 9 at the end next the right hand; then each of
+<pb facs="tcp:110661:7"/> theſe Primes or firſt Grand Diviſions are ſubdivided in<g ref="char:EOLhyphen"/>to 10 other parts according to the ſame reaſon called Tenths; and again each of thoſe Tenths are ſubdivided into 10 other parts if the length of the Rule or Scale will permit.</p>
+            <p>The Figures 1, 2, 3, <hi>&amp;c.</hi> by which the Primes are di<g ref="char:EOLhyphen"/>ſtinguiſhed, are all arbitrary points, and may each of them repreſent ſo many entire <hi>Unites, Tenns, Hundreds</hi> or <hi>Thou<g ref="char:EOLhyphen"/>ſands;</hi> or they may alſo repreſent ſo many <hi>Tenth, Hundredth, Thouſandth,</hi> or <hi>Ten Thouſandth</hi> parts of an Unite.</p>
+            <p>If the firſt 1 on the Line be taken for 1, then 10 in the middle of the Line is 10 as in courſe it falls, but if the firſt 1 be taken for 10, or 100, then the figure 10 in the middle of the Rule muſt be taken for 100 or 1000.</p>
+            <p>Now when the firſt 1 or Prime repreſents 10 <hi>Unites,</hi> each Tenth in that Prime will be 1; and each Centeſme in thoſe Tenths (if there be any) will be one tenth part of an Unite.</p>
+            <p>Again, let the firſt Prime repreſent 100, then the Fi<g ref="char:EOLhyphen"/>gures 2, 3, 4, <hi>&amp;c.</hi> will denote 200, 300, 400, <hi>&amp;c.</hi> and ſo 10 at the end will be 10000, and according to this ſuppoſi<g ref="char:EOLhyphen"/>tion 1 tenth in each Prime will be 10 Unites, and in thoſe tenths each Centeſme will be 1.</p>
+            <p>For Decimal Fractions let 10 at the end of the Line, next the right hand, repreſent 1, then each Prime to<g ref="char:EOLhyphen"/>wards the left hand will be 1, and in thoſe Primes each tenth will be .01, and in theſe tenths each Centeſm will be .001 part of an Unite.</p>
+            <p>The Diviſions and way of Numbring on this Line being thus explain'd, it will not (I preſume be difficult) to find the point upon the Line, where any <hi>Number</hi> given is repreſented.</p>
+            <p>For Example: Suppoſe the Number 276 were propoſed, for the firſt figure 2 I account 2 next the beginning of the Line that is 2 next the left hand, for the ſecond figure 7 I
+<pb facs="tcp:110661:8"/> tell 7 tenths next following, that is 7 of the 10 great Di<g ref="char:EOLhyphen"/>viſions betwixt 2 and 3, then from this point I count 6 Centeſms. So that from 2 to this point repreſents 276.</p>
+            <p>Again, ſuppoſe I would repreſent or find the Number 408 on the Line, then for the firſt figure 4 I take that 4 on the Line next the left hand, and for the 0 in the ſe<g ref="char:EOLhyphen"/>cond place, I muſt not take any tenths, but for the 8 in the third place I count 8 Centeſms, and it gives that point which repreſents 408.</p>
+            <p>The greateſt Inconvenience of theſe Lines is this, all Numbers above 3 or 4 places cannot preciſely be repre<g ref="char:EOLhyphen"/>ſented unleſs the Lines are very long.</p>
+            <p>As for Decimal Fractions and mixt Numbers, they are diſcovered after the ſame manner as whole Numbers were: For ſuppoſe 2. 76 was required to be repreſented, it will be found at the ſame point, and by the ſame Rule as the whole Number 276 was. And therefore by what hath been ſaid it will be eaſie to find the point where any Number is repreſented on the Line eſpecially if it be ſmall.</p>
+            <p>Next for the Line of Artificial Sines, which are only the Logarithms of the Natural, and are therefore transfer'd from a Table of Logarithms to the Scale, they begin to<g ref="char:EOLhyphen"/>ward the left hand, and are numbered towards the right with the Figures 1, 2, 3, <hi>&amp;c.</hi> to 10, which ſtands about the middle of the Line, and ſignifie ſingle Degrees, after theſe it runs on with 10, 20, 30, <hi>&amp;c.</hi> to 90, which ſtands at the end next the right hand, theſe Diviſions are ſub<g ref="char:EOLhyphen"/>divided into 10 equal parts, and thoſe again into 10, 5 or 2 parts, and ſometimes not at all, according as the length of the Scale will permit. So that if betwixt 1 and 2 in the firſt part it be divided into ten parts, one of theſe parts will repreſent 6 Minutes, and if each of theſe Divi<g ref="char:EOLhyphen"/>ſions be again halv'd each part will repreſent 3 Min. If the grand Diviſion in the later part be divided into 10 equal
+<pb n="9" facs="tcp:110661:8"/> parts, each diviſion repreſents a degree, and if theſe are halv'd each diviſion will be 30 Minutes.</p>
+            <p>What is ſaid of the Line of Sines, the ſame may be underſtood of the Line of Tangents, whoſe diviſions begin at 1, and run to 10 in the middle of the Line, and ſignifie only ſingle Degrees, after 10 it runs on with 20, <hi>&amp;c.</hi> to 45, which ſtands at the end of the Line; from 45 it runs back again to 90 where you be<g ref="char:EOLhyphen"/>gun, as the bare inſpection of theſe Lines on any Scale, will more fully declare.</p>
+            <p>Theſe Lines are of moſt Excellent uſe, for by them all Queſtions of Proportion may be ſolv'd, whether <hi>Arith<g ref="char:EOLhyphen"/>metical</hi> or <hi>Geometrical.</hi> But their principal buſineſs is the ſolution of Plain and Spherick Triangles, which they do with great ſpeed, and exact enough in many Caſes, and therefore very neceſſary for proving your <hi>Arithme<g ref="char:EOLhyphen"/>tick</hi> and <hi>Geometrick</hi> Operations.</p>
+            <p>The method of working with them is thus: In all Proportions you have three terms given to find a fourth. Seek out therefore the firſt term whatever it be, <hi>viz.</hi> Number, Sine, or Tangent on its like Line, that is, if it be a Number look for it on the Line of Numbers, if it be a Sine, ſeek it on the Line of Sines, <hi>&amp;c.</hi> and in that point ſet your Compaſſes, then extend the other to the 2<hi>d</hi> or 3<hi>d</hi> term, that is, extend it to that which is of the ſame name with the firſt, (for either the 2<hi>d</hi> or 3<hi>d</hi> will be always like the firſt) the ſame extent laid from the other term the ſame way will reach to the fourth term required.</p>
+            <p>An Example will make it plain:</p>
+            <p>Suppoſe this Proportion was to be wrought, as the Sine of 67 <hi>d.</hi> 30 <hi>m.</hi> to the Numb. 64. So is <hi>Radius</hi> or Sine of 90, to the <hi>4th</hi> Number required.</p>
+            <p>Set one foot of your Compaſſes in the Line of Artifi<g ref="char:EOLhyphen"/>cial
+<pb n="10" facs="tcp:110661:9"/> Sines on the Number 67 <hi>d.</hi> 30 <hi>m.</hi> and extend the other foot to 90 on that Line, the ſame extent will reach from 64 on the Line of Numbers, to 70 on the ſaid Line, if apply'd the ſame way, which 70 is the <hi>4th</hi> Number re<g ref="char:EOLhyphen"/>quired. After the ſame manner may all other Queſtions be wrought.</p>
+         </div>
+         <div n="5" type="chapter">
+            <head>CHAP. V. <hi>Of the Sector, and the Deſcription of the Lines thereon placed.</hi>
+            </head>
+            <p>HAving thus ſhown you how theſe Lines are original<g ref="char:EOLhyphen"/>ly divided, I ſhall now paſs to ſhow how they are plac'd on a <hi>Sector,</hi> or joynt Rule, and then ſhall give a few Examples of their Excellent uſe as they are thus diſ<g ref="char:EOLhyphen"/>poſed.</p>
+            <p>A <hi>Sector,</hi> as 'tis Geometrically defined, is a Figure bounded by two ſtrait Lines, and part of the Circum<g ref="char:EOLhyphen"/>ference of a Circle, as <hi>Fig.</hi> 5.</p>
+            <p>But by a <hi>Sector</hi> here ſpoken of, you are to underſtand an Inſtrument that opens upon a Center like a common <hi>Carpenter</hi>'s Rule. The two pieces that moves upon the Center we call Legs, upon which are plac'd moſt of the Lines that are upon the Common Scales, but are here uſed after a different manner than they are upon thoſe Scales.</p>
+            <p>The principal Lines that are now generally put upon this Inſtrument to be uſed Sectorwiſe, are equal Parts, Chords, Sines, Tangents, Secants and <hi>Polygons.</hi>
+            </p>
+            <p>The Line of equal parts, called alſo the Line of Lines, is a Line divided into 100 equal parts, and if the length
+<pb facs="tcp:110661:9"/> of the Leg of the <hi>Sector</hi> will permit, is again ſubdivided into Halves and Quarters, they are placed on each Leg of the <hi>Sector</hi> on the ſame ſide, and are Numbered by 1, 2, 3, <hi>&amp;c.</hi> to 10. which is very near the end of each Leg, theſe Lines are (as in the Printed Plate of the <hi>Sector</hi> here<g ref="char:EOLhyphen"/>unto annexed) noted with the Letter L.</p>
+            <p>And here note, that this 1 may be taken for 10, or for 100, 1000, 10000, <hi>&amp;c.</hi> as occaſion requires, and then 2 will ſignifie 20, 200, 2000, 20000, <hi>&amp;c.</hi> and ſo of the reſt.</p>
+            <p>The Line of Chords, is a Line divided after the uſual way of the Line of Chords, from a Circle whoſe Radius is nearly the length of one of the Legs; this Line is pla<g ref="char:EOLhyphen"/>ced upon each Leg of the Sector, beginning at the Cen<g ref="char:EOLhyphen"/>ter, and running towards the end thereof. It is number<g ref="char:EOLhyphen"/>ed with 10, 20, <hi>&amp;c.</hi> to 60, and to this Line on each Leg is ſet the Letter C.</p>
+            <p>Note, this Line on ſome Sectors run to 90 degrees.</p>
+            <p>The Line of Sines, is a Line of common natural Sines, ſuch as we have before defined, only 'tis divided from a Circle of the ſame Radius that the Line of Chords was; theſe are alſo plac'd upon each Leg of the Sector, and numbred with the Figures 10, 20, 30, <hi>&amp;c.</hi> to 90, at the end of which on each Leg in the Print annexed, is ſet the letter S.</p>
+            <p>The Line of <hi>Tangents,</hi> is a Line of common Tangents, divided from a Circle of the forementioned <hi>Radius,</hi> and is plac'd upon each Leg, and runs to 45. It has the Numbers 10, 20, <hi>&amp;c.</hi> to 45 placed upon it, with the Letter T for Tangent.</p>
+            <p>Beſide this, is another ſmall Line of Tangents, divided from a <hi>Radius</hi> of about 2 Inches, and is placed upon each Leg of the Sector, it begins at 45, which ſtands at the length of the <hi>Radius</hi> from the Center, and runs to a<g ref="char:EOLhyphen"/>bout
+<gap reason="missing" extent="2 pages">
+                  <desc>〈2 pages missing〉</desc>
+               </gap>
+               <pb facs="tcp:110661:10"/> the ſides <hi>ad, ae,</hi> alſo <hi>ac, ab,</hi> ſhall be proportional. That is <hi>ad</hi> to <hi>ac,</hi> as <hi>ae</hi> to <hi>ab.</hi> So that if <hi>ad</hi> be a half or a third of the ſide <hi>ac,</hi> then ſhall <hi>de</hi> be a half or a third of his Parallel <hi>cb.</hi> The like reaſon holdeth in all other Secti<g ref="char:EOLhyphen"/>ons: Whence you ſee that if <hi>ad</hi> be the Chord, Sine or Tangent of any number of degrees to the Radius <hi>ac,</hi> then ſhall <hi>de</hi> be the Chord, Sine or Tangent of the ſame number of degrees to the Radius <hi>cb.</hi>
+            </p>
+            <p>Now the Lines found out by the Sector are of two ſorts, <hi>viz.</hi> Lateral or Parallel. Lateral are ſuch as are found upon the ſides of the Sector as <hi>ad, ac</hi> in <hi>Fig.</hi> 6. Pa<g ref="char:EOLhyphen"/>rallel are the Lines that run from one Leg of the Sector to the other in equal diviſions from the Center, as <hi>de, cb</hi> in the ſaid Figure.</p>
+            <p>And here note, That the Innermoſt of the Parallels is the true divided Line, and therefore in uſing the Com<g ref="char:EOLhyphen"/>paſſes you muſt always ſet them upon the innermoſt Line both in Lateral and Parallel Entrance.</p>
+            <p>And further note, that the Lines are plac'd (upon Se<g ref="char:EOLhyphen"/>ctors now made) after a different way to what they were formerly, for inſtead of puting the ſame Lines at equal diſtances, from the inward edg, they now put them at unequal diſtances, as by inſpection of the Print hereunto annex'd you may ſee; whereupon one Leg, the Line of Chords is innermoſt, but upon the other the Line of Tangents is innermoſt. That is, the innermoſt line of Chords and Tangents are equally di<g ref="char:EOLhyphen"/>ſtant from the inward edg, and ſo are the outermoſt line of Chords and Tangents. The benefit of the Contrivance is this, when you have ſet the Sector to a Radius for the Chords, it ſerves alſo for the Sines and Tangents without ſtirring it. For the Parallel betwixt 60 and 60 of the Chords, 90 and 90 of the Sines; alſo 45 and 45 of the Tangent are all equal, and this is the reaſon why
+<pb n="15" facs="tcp:110661:10"/> they now make the Chords run but to 60 deg. upon the leg of the Sector. Whereas they us'd to run to 90. But practice and Experience has found out the inconveni<g ref="char:EOLhyphen"/>ence.</p>
+            <p>This being premiſed, I ſhall now proceed to ſhow you the uſes of the ſeveral lines. And firſt,</p>
+         </div>
+         <div n="7" type="chapter">
+            <head>CHAP. VII.</head>
+            <div n="1" type="problem">
+               <head>PROB. I. <hi>Of the Line of Lines, or equal Parts. To divide any Line into any Number of equal Parts.</hi>
+               </head>
+               <p>IF you would divide any Line into the ſame Number of equal parts as the leg of the Sector is: Take the length of the line betwixt your Compaſſes, and ſet it o<g ref="char:EOLhyphen"/>ver as a parallel betwixt 10 and 10 (which you may call 100 and 100, as before was hinted) then ſhall the pa<g ref="char:EOLhyphen"/>rallel diſtances betwixt every point on each leg divide the given Line into the ſame equal parts: As if you would mark out 6 (or 60) of thoſe parts, the parallel diſtance betwixt 6 and 6 mark'd out upon the given Line, is 6 (or 60) of the ſaid parts. If you would mark out 7.3 (or 73) parts, then count 3 of the next great Diviſions from 7, and in that point take the parallel di<g ref="char:EOLhyphen"/>ſtance betwixt each, and it gives you 7.3 (or 73) parts of the propoſed Line; and ſo of the reſt.</p>
+               <p>If you would divide a Line into any odd number of equal parts, as ſuppoſe I would divide the Line <hi>ab, Fig.</hi> 7. into 37 equal parts, Take the Line <hi>ab</hi> betwixt your Compaſſes, and make it a parallel betwixt 37 and 37 on the legs of the Sector, then the diſtance betwixt 36 and
+<pb facs="tcp:110661:11"/>
+                  <gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb n="15" facs="tcp:110661:11"/>
+                  <gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb n="16" facs="tcp:110661:12"/> 36 (the Sector remaining at this angle) is 36 of them. Alſo the parallel diſtance betwixt 35 and 35, 34 and 34, 33 and 33, are 35. 34 and 33 of ſuch parts that the whole contains 37 off, and may be cut off as you ſee in <hi>Fi<g ref="char:EOLhyphen"/>gure</hi> 7.</p>
+               <p>In like manner may any other Line be divided into any Number of equal parts: But if the length of the line be ſuch that it cannot be applied betwixt the parts deſired, then take but half, or a quarter of the ſaid Line. So ſhall 2 (or 4) of thoſe Diviſions, be but one ſuch part or diviſion of the whole Line.</p>
+            </div>
+            <div n="2" type="problem">
+               <head>PROB. II. <hi>To Increaſe or Diminiſh a Line in a given Proportion.</hi>
+               </head>
+               <p>SUppoſe a Line was given to be increaſed in ſuch pro<g ref="char:EOLhyphen"/>portion as 5 to 7, that is thus, If the Line given contains 5 parts, I require another Line that ſhall have in it 7 of thoſe parts: Take the given Line betwixt your Compaſſes, and open the Sector till that Extent lye betwixt 5 and 5 on the Line of Lines, then if you take the parallel diſtance betwixt 7 and 7, it will give you the Line required.</p>
+               <p>If it were to be diminiſhed: Suppoſe as 7 to 5, then make the given Line a parallel betwixt 7 and 7, and the parallel Extent betwixt 5 and 5 is the Line required.</p>
+            </div>
+            <div n="3" type="problem">
+               <pb n="17" facs="tcp:110661:12"/>
+               <head>PROB. III. <hi>Two Lines given to find a third in continual proportion, both increaſing and diminiſhing.</hi>
+               </head>
+               <p>IF it be increaſing, take the two Lines given, and ſet them upon each Leg on the Line of Lines from the Center, and mark the points where both of them fall; then take the longeſt line betwixt your Compaſſes, and apply that Extent parallel wiſe in the Terms of the ſhor<g ref="char:EOLhyphen"/>teſt, the Sector remaining at this angle, the parallel di<g ref="char:EOLhyphen"/>ſtance betwixt the Terms of the longeſt being taken and apply'd to the leg of the Sector from the Center, will give you the length of the third Proportional required.</p>
+               <p>If it be Diminiſhing, then inſtead of making the lon<g ref="char:EOLhyphen"/>geſt of the two given Lines a parallel betwixt the Terms of the ſhorteſt, make the ſhorteſt of the two given Lines a parallel in the Terms of the longeſt, then the parallel diſtance betwixt the Terms of the ſhorteſt being apply'd to the leg from the Center, will give the 3d. Proportional required. Let the Lines given be <hi>ab</hi> 18, <hi>ac</hi> 24, then is <hi>cc</hi> 32 the 4th. Proportional increaſing, as in <hi>Fig.</hi> 8.</p>
+            </div>
+            <div n="4" type="problem">
+               <head>PROB. IV. <hi>Three Lines or Numbers given to find a fourth Propor<g ref="char:EOLhyphen"/>tional, both Increaſing and Diminiſhing.</hi>
+               </head>
+               <p>THis Problem is almoſt the ſame with the laſt, and is therefore to be ſolv'd after the like manner: As firſt, If you would find it Increaſing, ſet the two ſhorteſt
+<pb n="18" facs="tcp:110661:13"/> Lines on the Line of equal parts on each leg of the Se<g ref="char:EOLhyphen"/>ctor, then open the Sector till the third or longeſt Line will come betwixt the Terms of the ſhorteſt: The Sector thus ſtanding, take the parallel Diſtance betwixt the Terms of the longeſt, and apply that Extent to the ſide of the Sector; it will give you the length of the 4th. proportional Increaſing.</p>
+               <p>If it be Diminiſhing, lay the two longeſt Lines on the legs of the Sector from the Center, and make the ſhor<g ref="char:EOLhyphen"/>teſt of the 3 given Lines a parallel in the Terms of the longeſt; then the parallel betwixt the Terms of the ſhorteſt taken and apply'd as before, is the 4th. Pro<g ref="char:EOLhyphen"/>portional required, and is Decreaſing or Diminiſhing. An Example would be needleſs.</p>
+            </div>
+            <div n="5" type="problem">
+               <head>PROB. V. <hi>To find the Propotion that is betwixt any two given Lines.</hi>
+               </head>
+               <p>TAke the greater of the two given Lines, and make it a parallel betwixt 10 and 10 at the end of the Sector, then take the leſſer line and carry it parallel to the greater, till it reſts in like points on each leg; ſo the number of Points where it reſts, is the proportion to 100.</p>
+               <p>Thus in <hi>Fig.</hi> 9. you will find the Line <hi>aa</hi> in proportion to <hi>bb</hi> as 7 to 10.</p>
+            </div>
+            <div n="6" type="problem">
+               <head>PROB. VI. <hi>The length of one Line being givan, to find what length any other Line is in ſuch parts.</hi>
+               </head>
+               <p>SUppoſe the Line <hi>aa</hi> in <hi>Fig.</hi> 9. was 44, and I would know what the Line <hi>bb</hi> is, make the Line <hi>aa</hi> a Pa<g ref="char:EOLhyphen"/>rallel
+<pb n="19" facs="tcp:110661:13"/> in 44, then take the Line <hi>bb,</hi> and carry it along Pa<g ref="char:EOLhyphen"/>rallel to <hi>aa</hi> till it reſts in like Points, ſo the number it reſts in which is about 30, is the length of the Line <hi>bb</hi> in ſuch parts as <hi>aa</hi> did contain 44.</p>
+               <p>This Problem may be very uſeful ſometimes, as in Caſe the Draught or Ground-plot of any place be taken and no Scale to it, then if the length of any one Line or ſide in the Draught be known, the length of all the reſt is eaſily found by this artifice.</p>
+            </div>
+            <div n="7" type="problem">
+               <head>PROB. VII. <hi>A right Line any how divided being given, to find how to divide any other Line of different length into the like parts.</hi>
+               </head>
+               <p>LET <hi>ch</hi> in <hi>Fig.</hi> 10. be the Line given, which is un<g ref="char:EOLhyphen"/>equally divided in the Points <hi>e. f. g.</hi> And let <hi>hh</hi> be the other Line required to be divided into ſuch parts as was the former; Lay the Line <hi>ch</hi> from the Center on both Legs of the Sector, and in the Points where this Line reaches apply the ſhorteſt Line Parallel-wiſe, that is open the Sector till the ſhorteſt Line may be apply'd betwixt the terms of the longeſt, this done lay the Diviſions of the line <hi>ch,</hi> viz. <hi>ce, ch, cg,</hi> on both legs of the Sector from the Center, then the Parallel extent of theſe Diviſions, viz. <hi>ee, ff, gg,</hi> being taken and applied to the line <hi>hh</hi> will will divide it into the like parts as was the line <hi>ch.</hi>
+               </p>
+            </div>
+         </div>
+         <div n="8" type="chapter">
+            <pb facs="tcp:110661:14"/>
+            <head>CHAP. VIII. <hi>Of the General Uſe of the Line of</hi> Chords, Sines, Tangents <hi>and</hi> Secants.</head>
+            <p>BY diſpoſing and placing theſe lines as afore dire<g ref="char:EOLhyphen"/>cted on this Inſtrument we have Scales to ſeveral Raduis's, as I have already hinted, that is having a length or Radius given (not exceeding the length of the Sector when opened) we can by the Sector find the <hi>Chord, Sine,</hi> &amp;c. thereto. For which property this In<g ref="char:EOLhyphen"/>ſtrument is many times of great uſe.</p>
+            <p>For <hi>Example,</hi> Suppoſe I would have the Chord, Sine; or Tangent of 10 deg. to a Radius of 3 Inches. I take this 3 Inches and make it a Parallel betwixt 60 and 60 on the line of Chords, then as I told you before the ſame extent will reach from 45 to 45 on the line of Tangents: Alſo on the other ſide of the Sector the ſame diſtance of 3 Inches will reach from 90 and 90 in the line of Sines, ſo that if the lines of Chords be ſet to any Radius the lines of Tangents and Sines are alſo ſet to the ſame; Now the Sector being thus ſet, if you take on the ſaid line, the Parallel diſtance betwixt<g ref="char:punc">▪</g> 40 and 40 it will give you the Chord of 40 degrees: Alſo if you take the Pa<g ref="char:EOLhyphen"/>rallel diſtance on the line of Sines between 40 and 40, it will give you the Sine of 40 degrees. Laſtly, if you take the Parallel extent on the line of Tangents, betwixt 40 and 40, it will give you the Tangent of 40 degrees, and all to the ſame Radius.</p>
+            <p>If the Chord or Tangent of 70 degrees had been re<g ref="char:EOLhyphen"/>quir'd, then for the Chord you muſt take the Parallel
+<pb facs="tcp:110661:14"/> diſtance of half the Arch propoſed, that is the Chord of 35 deg. and repeat that diſtance twice on the Arch you lay it down on, and you have the Chord of 70 deg. and for finding the Tangent of 70 deg. to this Ra<g ref="char:EOLhyphen"/>dius, you muſt make uſe of the ſmall line of Tangents, for the great one running but to 45 deg. we cannot take the Parallel of 70 deg. on that; I therefore take the a<g ref="char:EOLhyphen"/>foreſaid Radius of 3 Inches and make it a Parallel be<g ref="char:EOLhyphen"/>twixt 45 and 45 on this ſmall line of Tangents, then the Parallel Extent of 70 deg. on the ſaid line, is the Tan<g ref="char:EOLhyphen"/>gent of 70 deg. to 3 Inches Radius.</p>
+            <p>If you would have the Secant of any Arch, then take the given Radius and make it a Parallel betwixt the be<g ref="char:EOLhyphen"/>ginning of the line of Secants, that is 0 and 0, ſo the Parallel diſtance betwixt 40 and 40, or 70 and 70 on the ſaid Secant line, will give you the Secant of 40 or 70 degrees to the Radius of three Inches.</p>
+            <p>After this manner may the Chord, Sine or Tangent, of any Arch be found, provided the Radius, can be made a Parallel betwixt 60 and 60 on the Line of Chords, or betwixt the ſmall Tangent of 45, or Secant of 0 deg. But if the Radius be ſo large that it cannot be made a Parallel betwixt 45 and 45 on the ſmall Tan<g ref="char:EOLhyphen"/>gents, then no Tangent of any Arch above 45 degrees cannot be found; Nor the Secant of no Arch at all to ſuch a Radius, becauſe all Secants exceed the Radius, or Se<g ref="char:EOLhyphen"/>mi-diameter of the Circle.</p>
+            <p>If the converſe of any of theſe things be requir'd, that is, If I require the Radius, to which a given Line is the <hi>Chord, Sine, Tangent</hi> or <hi>Secant</hi> of any Arch, ſuppoſe of 40 deg. then 'tis but making that Line (if it be a Chord) a Parallel on the Line of Chords betwixt 40 and 40, ſo will the Sector ſtand at the Radius; That is the Parallel Extent betwixt 60 and 60 on the ſaid Chord-line is the Radius.</p>
+            <pb n="22" facs="tcp:110661:15"/>
+            <p> And ſo if it be a Sine, Tangent or Secant, 'tis but making it a Parallel betwixt the Sine, Tangent, or Secant of 40 deg. according as 'tis given, then will the diſtance of 90 and 90 on the Sines, if it be a Tangent, the Ex<g ref="char:EOLhyphen"/>tent of 45 and 45 on the Tangents: And if it be a Se<g ref="char:EOLhyphen"/>cant, the Extent or diſtance between 0 and 0 on the ſaid Line of Secants, will be the Radius.</p>
+            <p>Hence you ſee 'tis very eaſy to find the <hi>Chord, Sine</hi> or <hi>Tangent</hi> to any Radius, which is the great Benefit and Advantage we receive from this ingenious Contrivance, and of great uſe it is, not only in delineating and pro<g ref="char:EOLhyphen"/>jecting on Paper, but even on the Ground, in laying out any Parcel in any form or ſhape; for by a Sector of two or three Foot long when opened, we can furniſh our ſelves with Scales big or little enough for any pur<g ref="char:EOLhyphen"/>poſe or Deſign whatſoever.</p>
+         </div>
+         <div n="9" type="chapter">
+            <head>CHAP. IX. <hi>Of ſome particular Uſes of the Circular Lines,</hi> viz. <hi>Chords, Sines,</hi> &amp;c.</head>
+            <div n="1" type="problem">
+               <head>PROB. I. <hi>An Angle being given, to find the Number of Degrees it contains.</hi>
+               </head>
+               <p>SUppoſe I would find the Quantity of the Angle <hi>a</hi> in <hi>Fig.</hi> 11. Take any diſtance, but ſo ſhort that it may cut both ſides of the Angle, with this diſtance on the Angular point <hi>a</hi> deſcribe the Arch <hi>bc,</hi> and make that diſtance a Parallel betwixt the Chord of 60 and 60, then take the diſtance <hi>bc</hi> and carry it Parallel on the Line of
+<pb n="23" facs="tcp:110661:15"/> Chords till it reſts in like Points, ſo the place where it ſtayeth gives the Quantity of the Angle deſired, which in our Example is about 35 deg.</p>
+               <p>But if the diſtance <hi>bc</hi> is ſo long that it cannot be made a Parallel on the Line of Chords, as it will when the Angle is above 60 degrees. Then take but half the Arch, and make it a Parallel Chord as afore-directed, and the Points where it ſtays will give you half the An<g ref="char:EOLhyphen"/>gle, which doubled gives the whole.</p>
+            </div>
+            <div n="2" type="problem">
+               <head>PROB. II. <hi>To divide the Circumference of a Circle into any Num<g ref="char:EOLhyphen"/>ber of Equal Parts.</hi>
+               </head>
+               <p>DIvide 360 the Number of Degrees in every Circle, by the Number of Parts required, the Quotient giveth the Number of Degrees, of which if you take the Chord off 'twill divide the Circumference.</p>
+               <p>For Example, if I would divide a Circle into 5 equal parts, I divide 360 by 5, the Quote is 72 deg. If there<g ref="char:EOLhyphen"/>fore I take the Radius of the Circle I would ſo divide, and make it a parallel betwixt 60 and 60 on the Line of Chords, and then (becauſe I cannot take the Chord of 72 deg. the ⅕ part of the Circle) take the Chord of 36 deg. and repeat it twice on the Arch it will give the ⅕ part of the Circle which was the thing required.</p>
+               <p>But this <hi>Problem</hi> is more readier perform'd by the <hi>Polygon Line</hi> which is for this very purpoſe. The man<g ref="char:EOLhyphen"/>ner of doing it is thus, Take the Radius of the Circle you would ſo divide, and make it a parallel betwixt 6 and 6 on the <hi>Polygon</hi> Line (for the Radius or Semi-dia<g ref="char:EOLhyphen"/>meter always divides the Circumference of the Circle
+<pb n="24" facs="tcp:110661:16"/> into 6 equal parts) then if you take the Parallel diſtance betwixt 4 and 4 on the <hi>Polygon-line,</hi> it will divide the Circle into 4 equal parts; if betwixt 5 and 5 it will cut it into 5 equl parts: So alſo if you take the Parallel di<g ref="char:EOLhyphen"/>ſtances betwixt 6 and 6, 7 and 7, 8 and 8, 9 and 9, and ſo to 12, you may divide the Circle into 6. 7, 8. 9, 10. 11, or 12 equal parts.</p>
+            </div>
+            <div n="3" type="problem">
+               <head>PROB. III. <hi>The Radius, or the right Sine of an Arch (by which Radius may be found) being given, to find the Verſed Sine of any Arch.</hi>
+               </head>
+               <p>SUppoſe <hi>ab</hi> Fig. 12, were the Radius, and it were re<g ref="char:EOLhyphen"/>quired to find the Verſed Sine of 50 deg. make the Line <hi>ab</hi> a Parallel betwixt the Sines of 90 and 90, then becauſe the Arch is under 90 degrees, take the Sine Complement, that is take the Parallel betwixt 40 and 40, on the Line of Sines, and with that diſtance ſet one foot in <hi>a,</hi> and cut from the Line <hi>ab</hi> the Segment <hi>cb,</hi> which is the Verſed Sine of 50 deg. to that Radius.</p>
+               <p>If <hi>ac</hi> be the given Sine of 40 deg. and it be required to find the Verſed Sine of 50 deg. I take the Line <hi>ac</hi> and make it a Parallel betwixt the Sine of 40 and 40, then taking the Parallel diſtance of 90, it gives me the Line <hi>ab</hi> for the Radius. From which if I take the Sine of 40 deg. the Complement of the Arch whoſe Verſed Sine is ſought, it will leave me the Verſed Sine of 50 degrees.</p>
+               <p>But if the Arch whoſe Verſed Sine is required be more than a Quadr. the Verſed Sine will alſo be greater than a
+<pb n="25" facs="tcp:110661:16"/> Quadrant, and that by ſo much as is the right Sine of the Exceſs of that Arch above 90.</p>
+               <p>And therefore when ever the Verſed Sine of an Arch exceeding 90 degrees, is required, ſuppoſe it were of 120 degrees, 'tis but taking the right Sine of the Exceſs above 90 degrees, <hi>viz.</hi> 30. and adding to Radius, ſo is the ſumm of Radius and this Sine of 30 degrees the Verſed Sine required.</p>
+            </div>
+            <div n="4" type="problem">
+               <head>PROB. IV. <hi>How by the Line of <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ines to deſcribe an Elipſis to any length and breadth given.</hi>
+               </head>
+               <p>SUppoſe it were required to deſcribe an Elipſis, whoſe length ſhould be <hi>ab</hi> and breadth <hi>cd.</hi> Fig. 13.</p>
+               <p>Set theſe two Lines at right Angles, and ſo as they may biſect each other in 0; then take half of the long<g ref="char:EOLhyphen"/>eſt Line, and make it a Parallel betwixt the Sine of 90, the Sector thus ſet, take the parallel Sine of 10, 20, 30, <hi>&amp;c.</hi> to 90 deg. and lay from 0 both ways to<g ref="char:EOLhyphen"/>ward <hi>b</hi> and <hi>a,</hi> ſo have you ſeveral Points in the Line <hi>ab,</hi> through which if you draw Lines Parallel to <hi>cd,</hi> and lay thereon from the ſaid Points the Sine of 80. 70, 60. 50, <hi>&amp;c.</hi> to 10 degrees, upon the reſpective Parallels, they will give you ſeveral Points, through which if a Line be drawn with an even hand, it will form an Elipſis.</p>
+               <p>By this Artifice may the Orthographick or Analem<g ref="char:EOLhyphen"/>matick Projection of the Sphere be delineated with great eaſe and exactneſs, the Circles which are beheld oblique<g ref="char:EOLhyphen"/>ly being in that Projection all Elipſes.</p>
+            </div>
+            <div n="5" type="problem">
+               <pb n="26" facs="tcp:110661:17"/>
+               <head>PROB. V. <hi>To open the Sector to any given Angle.</hi>
+               </head>
+               <p>IT is one thing to open the Sector to an Angle, and another thing to open the Lines on the Sector to the ſame Angle.</p>
+               <p>Suppoſe I would open the Line of Chords on the Se<g ref="char:EOLhyphen"/>ctor to an Angle of 38 Deg. I take 38 from the Center laterally, and make that a parallel betwixt 60 and 60 on the line of Chords, ſo is the line of Chords ſet to an Angle of 38 deg. and not only the line of Chords, but alſo the Line of Lines, Line of Sines, and Line of Tan<g ref="char:EOLhyphen"/>gents, becauſe they are all Equidiſtant from the inward edges of the Sector. If you would open the two in<g ref="char:EOLhyphen"/>ward Lines, ſuppoſe Chords and Tangents, or Sines and Lines, 'tis done after ſame manner, that is, by taking the lateral Chord of the Angle you would open the Se<g ref="char:EOLhyphen"/>ctor to, and making it parallel betwixt 45 and 60 on one ſide the Sector, or elſe betwixt 90 and 10 on the other ſide, ſo is the innermoſt Line of Sines and Lines on the other ſide ſet to the Angle required.</p>
+               <p>After the ſame manner may the outermoſt Lines be ſet to any given Angle.</p>
+               <p>But ſuppoſe you would open the very edges of the Sector to any given Angle, then having put the Sector cloſe; Take the parallel Extent betwixt the innermoſt ine of Chords and Tangents, and apply that Extent la<g ref="char:EOLhyphen"/>terally on the line of Chords from the Center, and it ſhows you what Angle thoſe lines make when the Sector is ſhut, in the printed Plate of the Sector hereunto an<g ref="char:EOLhyphen"/>nexed, thoſe lines make an Angle of 5 deg. Suppoſe
+<pb facs="tcp:110661:17"/> therefore you would open the Edges of the Sector to an angle of 40 Deg. I take from the Scale of Chords the la<g ref="char:EOLhyphen"/>teral Chord of 45 deg. and apply that Extent parallelwiſe betwixt 60 on the innermoſt line of Chords, and 45 on the innermoſt line of Tangents, and it ſets the Edges of the Sector to an Angle of 40 deg. for thoſe lines are ſet to an Angle of 45 deg. Now the Edges of the Sector making an Angle leſs by 5 Deg. than thoſe lines do, muſt therefore by conſequence be ſet to an Angle of 40 Degrees.</p>
+               <p>If you would open the Line of Lines to a right Angle, take the whole line of 10 parts, and make it a pa<g ref="char:EOLhyphen"/>rallel betwixt 8 and 6 of the ſame. The line of Sines may be opened to a right Angle, if the Sine of 45 deg. be applied over in the Sines of 30 deg. And here note, that having opened the Line of lines to a right Angle, the line of Chords, Sines and Tangents are opened to the ſame.</p>
+            </div>
+            <div n="6" type="problem">
+               <head>PROB. VII. <hi>The</hi> Sector <hi>being opened to find the Quantity of the Angle it is opened to.</hi>
+               </head>
+               <p>THe Sector being opened, take the parallel diſtance betwixt 60 and 60 on the Chords, and apply that Extent laterally from the Center on the Chords, the num<g ref="char:EOLhyphen"/>ber of Degrees it reaches to is the Angle thoſe Lines are opened to. Or the parallel extent betwixt 60 on the Chords, and 45 on the Tangents ſo applied, ſhows you the An<g ref="char:EOLhyphen"/>gle they are opened to, and if they are the two inner<g ref="char:EOLhyphen"/>moſt Lines, then is the edges opened to an Angle leſs
+<pb facs="tcp:110661:18"/> by 5 deg. than thoſe Lines are. If the Lines be at the ſame diſtance as in our Print.</p>
+               <p>This <hi>Problem</hi> is exceeding uſeful, for by it the Bevel of all kind of Roofs may be readily found. Alſo the Ground-plot of any old Edifice or Structure may be much eaſier and better taken than with any other Inſtru<g ref="char:EOLhyphen"/>ment whatſoever: Likewiſe the Quantity of Inclination and Reclination of all Plains, which is of great uſe in Dyaling, as alſo the Angles of any kind of Fortificati<g ref="char:EOLhyphen"/>ons, whether Regular or Irregular, may moſt eaſily and ſpeedily be taken by this Inſtrument. In order for drawing the Ground-plot or Proffile of any kind of Works, which thing is of great uſe at this time of day.</p>
+            </div>
+            <div n="7" type="problem">
+               <head>PROB. VII. <hi>Upon a right Line and from a Point given in it, to lay off any Angle propoſed.</hi>
+               </head>
+               <p>LET the Line given be <hi>ab,</hi> and let it be required to lay off an Angle containing 40 degrees from the given point <hi>a.</hi> Upon the point <hi>a</hi> deſcribe with any di<g ref="char:EOLhyphen"/>ſtance an Arch cuting the ſaid Line in <hi>b.</hi> Fig. 14. this diſtance make a parallel betwixt the Chord of 60, then if you take the parallel betwixt 40 and 40 on the ſaid Lines, and lay the extent from <hi>b</hi> on the Arch to <hi>c</hi> draw<g ref="char:EOLhyphen"/>ing from the point <hi>a</hi> through <hi>c</hi> the line <hi>ac,</hi> and it will form the Angle requir'd.</p>
+            </div>
+            <div n="8" type="problem">
+               <pb facs="tcp:110661:18"/>
+               <head>PROB. VIII. <hi>To Cut a Line in Extream and Mean Proportion: That is, to divide a Line into ſuch parts that the whole Line ſhall be to the greater of the two Segments, at the greater, to the leſſer.</hi>
+               </head>
+               <p>LEt <hi>ab</hi> Fig. 15. be the Line to be divided, I take the ſaid Line <hi>ab,</hi> and make it a parallel betwixt the Chords of 60, to which Radius I find the Chord of 36 degrees, that is, the Sector being at this Angle, I take the parallel Chord of 36 degrees, and that extent being laid from <hi>a</hi> to <hi>c</hi> gives the greater Segment, and conſe<g ref="char:EOLhyphen"/>quently cuts off the leſſer Segment <hi>cb.</hi> For 'twill hold as <hi>ab: ac: : ac: cb.</hi>
+               </p>
+               <p>The practice of this <hi>Problem</hi> is demonſtrated in the <hi>9th. Prop.</hi> of the <hi>13th.</hi> Book of <hi>Euclid.</hi>
+               </p>
+            </div>
+         </div>
+         <div n="10" type="chapter">
+            <head>CHAP. X. Trigonometry, <hi>Or the uſe of the Natural and Arti<g ref="char:EOLhyphen"/>ficial Lines on the</hi> Sector, <hi>in the Solution of the Caſes of Plain right Angled Triangles.</hi>
+            </head>
+            <p>
+               <hi>Defin. Trigonometry</hi> is a Science that teacheth how to Meaſure the Sides and Angles of all kinds of Triangles.</p>
+            <div n="1" type="case">
+               <pb facs="tcp:110661:19"/>
+               <head>CASE 1. <hi>Hypotenuſe</hi> bc 496, <hi>and Angle</hi> b 38 <hi>d.</hi> 40 <hi>m. given to find the Legs.</hi>
+               </head>
+               <p>
+                  <hi>Geometrically,</hi> Firſt draw a Line, as in <hi>Fig.</hi> 16. aſſume therein the Point <hi>b,</hi> on which as a Center with 60 deg. from the Chords, deſcribe the Arch <hi>cd,</hi> ſeting thereon, from <hi>e</hi> to <hi>d,</hi> 38 <hi>d.</hi> 40 <hi>m.</hi> From <hi>b</hi> through <hi>d</hi> draw a Line at pleaſure on which ſet from <hi>b</hi> to <hi>c.</hi> 496 taken laterally from the Line of Lines, from <hi>c</hi> let fall the Perpendicular <hi>ca</hi> and the Triangle is compleated.</p>
+               <p>
+                  <hi>Note,</hi> The given Lines and Arches are drawn Black, the required prick't.</p>
+               <p>If you take the Line <hi>ca</hi> betwixt your Compaſſes, and ſetting one foot in the Center of the Line of Lines, and pitch the other on the ſaid Line, it will give you 310 for the length of that ſide.</p>
+               <p>So alſo if you take the Line <hi>ba</hi> and apply it after the ſame manner, it will give you 388 for the length of this Line.</p>
+               <p>And here Note, If this lateral diſtance of 496 be too big, or too little, it may be remedied, by opening the Sector to ſuch a diſtance till the Parallel Extent betwixt 496 and 496 on the ſaid Lines be of ſuch a length as you would have it, then keeping the Sector at this An<g ref="char:EOLhyphen"/>gle, take the Lines <hi>ba, ca,</hi> and apply them Parallelwiſe, till they reſt in like Points, ſo ſhall theſe Points where they reſt give the length of the Lines <hi>ba, ca,</hi> as before.</p>
+               <p>
+                  <hi>Inſtrumentally.</hi> That is, by the Artificial Lines of Numbers, Sines, and Tangents.</p>
+               <p>If you make the Hypotenuſe Radius, the other two ſides will be Sines of their oppoſite Angles. By <hi>Chap.</hi> I.</p>
+               <pb n="30" facs="tcp:110661:19"/>
+               <p> And then it will hold as Radius, to the Hypotenuſe, ſo is the Sine of the Angle <hi>b,</hi> to the ſide <hi>ca.</hi> And therefore extend your Compaſſes from the Sine of 90 deg. to the Sine of 38 deg. 40 m. The ſame extent will reach on the Line of Numbers from 496 to 310 (being laid the ſame way) THE length of the Line <hi>ca.</hi>
+               </p>
+               <p>For the ſide <hi>ba</hi> extend your Compaſſes from Radius to the Sine 51 <hi>d.</hi> 20 <hi>m.</hi> The ſame extent will reach on the Line of Numbers from 496 to 388 the length of the ſide inquired.</p>
+               <div type="application">
+                  <head>USE.</head>
+                  <p>By this Caſe we find the difference of Latitude and Departure in Navigation, when the Courſe and Diſtance ſayled are given. Alſo by it may be found the Horizon<g ref="char:EOLhyphen"/>tal Line, or Perpendicular height of any Mountain: Ha<g ref="char:EOLhyphen"/>ving firſt meaſured the aſſent, and taken the Angle that its riſe makes with the Horizontal Line, which may be eaſily done by faſtening one leg of the Sector to a Walking-ſtaff ſet perpendicular in the Ground, and Ele<g ref="char:EOLhyphen"/>vating the other leg, til by it you ſee the foot of the hill if you ſtand at top, or top of the hill if you ſtand at the foot, ſo is the Sector ſet to the Angle that the aſſent makes with the perpendicular, or Horizontal Line, according as you take it either from top or foot of the Hill.</p>
+               </div>
+            </div>
+            <div n="2" type="case">
+               <head>CASE 2. <hi>Baſe</hi> ba 388, <hi>and Angle</hi> b 38 <hi>d.</hi> 40 <hi>m. to find the Hypo<g ref="char:EOLhyphen"/>tenuſe, and Perpendicular.</hi>
+               </head>
+               <p>
+                  <hi>Geom.</hi> Draw a Line at pleaſure, as in <hi>Fig.</hi> 17. on which ſet from <hi>a</hi> to <hi>b</hi> 388 taken from the Line of Lines, from <hi>a</hi> erect a perpendicular, and on the point <hi>b</hi> as a Center, deſcribe with 60 deg. from the Chords the Arch <hi>de</hi> ſeting thereon 38 <hi>d.</hi> 40 <hi>m.</hi> from <hi>e</hi> to <hi>d.</hi> through which draw the Line <hi>bd</hi> till it meet the perpendicular in <hi>c</hi> ſo is the Triangle compleated.</p>
+               <pb n="32" facs="tcp:110661:20"/>
+               <p> If now the Lines <hi>bc, ca,</hi> be taken and ſeperately mea<g ref="char:EOLhyphen"/>ſur'd upon the ſame Scale <hi>ba</hi> was taken from, it will give you 496 for the <hi>Hypotenuſe,</hi> and 310 for the <hi>Per<g ref="char:EOLhyphen"/>pendicular</hi> required.</p>
+               <p>
+                  <hi>Inſtrum.</hi> Making Hypotenuſe Radius as in the laſt, the ſides <hi>ba, ca,</hi> will be Sines of their oppoſite Angles. As by <hi>Chap.</hi> 1.</p>
+               <p>So that it will hold as the Sine of the Angle <hi>c,</hi> to the Baſe <hi>ba;</hi> ſo is the Sine of the Angle <hi>b,</hi> to the perpendi<g ref="char:EOLhyphen"/>cular <hi>ca.</hi> Or ſo is Radius or Sine of 90 <hi>d.</hi> To the Hypo<g ref="char:EOLhyphen"/>tenuſe <hi>bc.</hi> Extend the Compaſſes therefore from 51 <hi>d.</hi> 20 <hi>m.</hi> (the Complement of 38 <hi>d.</hi> 40 <hi>m.</hi> to 90 deg.) on the Line of Sines, to 38 <hi>d.</hi> 40 <hi>m.</hi> on the ſaid Line. The ſame Extent will reach on the Line of Numbers from 388 to 310 the length of the perpendicular required.</p>
+               <p>Again, if you extend the Compaſſes from 51 <hi>d.</hi> 20 <hi>m.</hi> on the Line of Sines to 90 deg. the ſame extent will reach on the Line of Numbers the ſame way, from 388 to 496 the length of the Hypotenuſe required.</p>
+               <div type="application">
+                  <head>USE.</head>
+                  <p>'Tis by this Caſe that we find the difference of La<g ref="char:EOLhyphen"/>titude and Diſtance ſayled, when the Courſe and Depar<g ref="char:EOLhyphen"/>ture is given.</p>
+                  <p>Alſo when the diſtance of the Baſe of any Object from the place where we ſtand to obſerve its height, with the Angle at the Baſe are given, we make uſe of this Caſe to Calculate its height.</p>
+                  <pb facs="tcp:110661:20"/>
+                  <figure>
+                     <figDesc>part of plate of mathematical diagrams referenced in the text, figures 11, 8, 9, part of 10, 12, 16, 15, 4, 3</figDesc>
+                  </figure>
+                  <pb facs="tcp:110661:21"/>
+                  <gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb n="32" facs="tcp:110661:21"/>
+                  <figure>
+                     <figDesc>part of plate of mathematical diagrams referenced in the text, figures 9, 10, 8, 2, 1, 5, 6, 7, 11, 8, 9, 10, 12, 14, 15, and parts of 4 and 3</figDesc>
+                  </figure>
+                  <pb facs="tcp:110661:22"/>
+               </div>
+            </div>
+            <div n="3" type="case">
+               <pb facs="tcp:110661:22" rendition="simple:additions"/>
+               <head>CASE 3. <hi>Hypotenuſe</hi> bc 496 <hi>and Baſe</hi> 388 <hi>given, to find the Per<g ref="char:EOLhyphen"/>pendicular, and oblique Angles.</hi>
+               </head>
+               <p>
+                  <hi>Geom.</hi> Firſt draw a Line, on which lay off 388 from <hi>b</hi> to <hi>a</hi> taken from the Line of Lines: From <hi>a</hi> erect a Perpendicular producing it, then take from the ſaid Line of Lines 496, and ſetting one foot in <hi>b,</hi> pitch the other in the Perpendicular at <hi>c;</hi> joyn the points <hi>bc,</hi> and you compleat the Triangle.</p>
+               <p>This done take the Line <hi>ca</hi> and meaſure it on the Scale, it will give 310 for the length of the ſaid Line. So alſo if on the point <hi>b</hi> you deſcribe with 60 deg. from the Chords the Arch <hi>ed,</hi> and then take the diſtance <hi>ed,</hi> and meaſure it on the Scale of Chords it will give you 38 <hi>d.</hi> 40 <hi>m.</hi> for the Angle <hi>b.</hi> Which 38 <hi>d.</hi> 40 <hi>m.</hi> taken from 90 will leave 51 <hi>d.</hi> 20 <hi>m.</hi> for the Angle <hi>c.</hi>
+               </p>
+               <p>
+                  <hi>Inſtrum.</hi> If you make the Hypotenuſe Radius as be<g ref="char:EOLhyphen"/>fore, then the Baſe and Perpendicular will be Sines of their oppoſite Angles. And then it will hold as the Hypotenuſe <hi>bc</hi> is to the Radius or Sine of 90 <hi>d.</hi> So is the Baſe <hi>ba,</hi> to the Sine of the Angle <hi>c.</hi> Extend the Com<g ref="char:EOLhyphen"/>paſſes therefore from 496 to 388 on the Line of Num<g ref="char:EOLhyphen"/>bers, the ſame Extent will reach from 90 on the Line of Sines, to 51 <hi>d.</hi> 20 <hi>m.</hi> which is the meaſure of the An<g ref="char:EOLhyphen"/>gle <hi>c.</hi> which taken from 90 leaves 38 <hi>d.</hi> 40 <hi>m.</hi> for the Angle <hi>b.</hi>
+               </p>
+               <p>Having gotten both the oblique Angles the Perpendi<g ref="char:EOLhyphen"/>cular is found by Caſe the <hi>1ſt.</hi>
+               </p>
+               <div type="application">
+                  <pb facs="tcp:110661:23" rendition="simple:additions"/>
+                  <head>USE.</head>
+                  <p>'Tis by this Caſe we find the Courſe and difference of Latitude, when the Diſtance ſayled and Departure are given.</p>
+               </div>
+            </div>
+            <div n="4" type="case">
+               <head>CASE 4. <hi>Baſe</hi> ba 388, <hi>and Perpendicular</hi> ca 310 <hi>given. To find the Hypotenuſe and oblique Angles.</hi>
+               </head>
+               <p>
+                  <hi>Geom.</hi> Draw a Line on which lay off from <hi>b</hi> to <hi>a</hi> 388, from <hi>a</hi> erect a Perpendicular, laying thereon from <hi>a</hi> to <hi>c.</hi> 310, then joyn <hi>bc</hi> and the Triangle is compleated.</p>
+               <p>From whence if you take the Hypotenuſe <hi>bc</hi> and ap<g ref="char:EOLhyphen"/>ply it to the Line of Lines, you ſhall have 496 for the length of it. And for the Angles, deſcribe the Arch of a Circle as in the laſt Caſe was directed, then the inter<g ref="char:EOLhyphen"/>cepted part <hi>de</hi> taken and apply'd to the Scale of Chords, will give you 38 <hi>a.</hi> 40 <hi>m.</hi> for the meaſure of the Angle <hi>b.</hi> which 38 <hi>d.</hi> 40 <hi>m.</hi> taken from 90, will leave 51 <hi>d.</hi> 20 <hi>m.</hi> as before for the Angle <hi>c.</hi>
+               </p>
+               <p>
+                  <hi>Inſtrum.</hi> In this Caſe the Baſe muſt be made Radius, then by <hi>Chap.</hi> 1. the Perpendicular will be the Tangent of the Angle oppoſite to it, and the Hypotenuſe the Secant of the ſaid Angle.</p>
+               <p>Which granting, it will then hold, as the Baſe <hi>ba,</hi> to Radius or Sine of 90 <hi>d.</hi> ſo in the Perpendicular <hi>ca,</hi> to the Tangent of the Angle <hi>b.</hi>
+               </p>
+               <p>Extend therefore the Compaſſes from 388 to 310 on the Line of Numbers, the ſame Extent will reach on the Line of Tangents, from 45 <hi>d.</hi> the Radius, to 38 <hi>d.</hi> 40 <hi>m.</hi> the Meaſure of the Angle <hi>b.</hi> which taken from 90, leaves the Angle <hi>c.</hi> Having</p>
+               <div type="application">
+                  <pb facs="tcp:110661:23"/>
+                  <head>USE.</head>
+                  <p>'Tis by this caſe (having the difference of Latitude and Departure) we find the Courſe and Diſtance ſayled.</p>
+                  <p>Alſo having the breadth of a Moat, and height of a Tower, we can from hence find the length of a Scaling-Ladder that ſhall reach from one to the other.</p>
+                  <p>After the ſame manner may the oblique Caſes in Plain Triangles be ſolv'd; and by the Artificial Lines may all the Proportions in both right and oblique Spherical Tri<g ref="char:EOLhyphen"/>angles, have their Solution, which thing is of great uſe, in that it ſo inſtantly proves our Arithmetick Opera<g ref="char:EOLhyphen"/>tions.</p>
+                  <trailer>FINIS.</trailer>
+                  <pb facs="tcp:110661:24"/>
+                  <pb facs="tcp:110661:24"/>
+                  <trailer>
+                     <figure>
+                        <figDesc>identical figures 16, 17, 18, and 19</figDesc>
+                     </figure>
+                  </trailer>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
